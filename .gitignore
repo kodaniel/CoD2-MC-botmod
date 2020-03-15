@@ -1,0 +1,9 @@
+# Exclude scriptdata folder
+#scriptdata/users/
+
+# Excel files
+*.xls
+*.xlsx
+
+# Log files
+*.log
