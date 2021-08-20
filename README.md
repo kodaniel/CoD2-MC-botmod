@@ -3,6 +3,8 @@ Call of Duty 2 1.3 Minecraft botmod
 
 ![Gameplay](web/images/gameplay_01.jpg)
 
+[Mod tool documentation](mod_tools/README.md)
+
 ## Installation
 First of all download the latest [release](https://github.com/kodaniel/CoD2-MC-botmod/releases).
 
@@ -15,6 +17,11 @@ Create a shortcut to the COD2_MP.exe and in the properties add the `+set fs_game
 
 Now when you start the game it will load the mod files from the `mcbotmod` folder.
 
+### Limitations
+
+Some features won't work on localhosted game, like account system and map records.
+Install the mod on a proper game hosting service to enjoy the mod in its entirety.
+
 ## Features
 
 - 19 various, Minecraft styled custom maps.
@@ -23,7 +30,7 @@ Now when you start the game it will load the mod files from the `mcbotmod` folde
 - 6 perks, like double health, quickreload, a pet :), and so on...
 - 10 power ups such as max ammo, instakill, resurrection, random weapon.
 - 3 different player classes with special abilities: hunter, doctor and banker.
-- 6 kind of missons.
+- 6 kind of missions.
 - 4 kind of end-game bosses.
 - 5 killstreaks, c4 bomb, airstrike, sentry gun, ...
 

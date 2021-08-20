@@ -1,0 +1,122 @@
+iwmap 4
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 16 16 0 ) ( -16 16 0 ) ( -16 -16 0 ) rndl_log_spruce_top 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( 16 -16 96 ) ( 16 16 96 ) ( 48 16 96 ) caulk 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -16 -16 480 ) ( 16 -16 480 ) ( 16 -16 32 ) rndl_log_spruce 32 32 16 -32 0 0 lightmap_gray 16384 16384 16 -32 0 0
+ ( 16 -16 480 ) ( 16 16 480 ) ( 16 16 32 ) rndl_log_spruce 32 32 16 -32 0 0 lightmap_gray 16384 16384 16 -32 0 0
+ ( 16 16 480 ) ( -16 16 480 ) ( -16 16 32 ) rndl_log_spruce 32 32 16 -32 0 0 lightmap_gray 16384 16384 16 -32 0 0
+ ( -16 16 480 ) ( -16 -16 480 ) ( -16 -16 32 ) rndl_log_spruce 32 32 16 -32 0 0 lightmap_gray 16384 16384 16 -32 0 0
+}
+// brush 1
+{
+ ( 48 16 96 ) ( -48 16 96 ) ( -48 -16 96 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -48 -16 128 ) ( -48 16 128 ) ( 48 16 128 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -48 -48 128 ) ( 48 -48 128 ) ( 48 -48 96 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( 48 -16 128 ) ( 48 16 128 ) ( 48 16 96 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( 48 48 128 ) ( -48 48 128 ) ( -48 48 96 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( -48 16 128 ) ( -48 -16 128 ) ( -48 -16 96 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+}
+// brush 2
+{
+ ( 16 16 160 ) ( -16 16 160 ) ( -16 -16 160 ) caulk 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -16 -16 256 ) ( -16 16 256 ) ( 16 16 256 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -16 -16 256 ) ( 16 -16 256 ) ( 16 -16 160 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( 16 -16 256 ) ( 16 16 256 ) ( 16 16 160 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( 16 16 256 ) ( -16 16 256 ) ( -16 16 160 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( -16 16 256 ) ( -16 -16 256 ) ( -16 -16 160 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+}
+// brush 3
+{
+ ( 48 16 192 ) ( 16 16 192 ) ( 16 -16 192 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( 16 -16 224 ) ( 16 16 224 ) ( 48 16 224 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( 16 -16 224 ) ( 48 -16 224 ) ( 48 -16 192 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( 48 -16 224 ) ( 48 16 224 ) ( 48 16 192 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( 48 16 224 ) ( 16 16 224 ) ( 16 16 192 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( -48 16 224 ) ( -48 -16 224 ) ( -48 -16 192 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+}
+// brush 4
+{
+ ( 16 -16 192 ) ( -16 -16 192 ) ( -16 -48 192 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -16 -48 224 ) ( -16 -16 224 ) ( 16 -16 224 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -16 -48 224 ) ( 16 -48 224 ) ( 16 -48 192 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( 16 -48 224 ) ( 16 -16 224 ) ( 16 -16 192 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( 16 -16 224 ) ( -16 -16 224 ) ( -16 -16 192 ) caulk 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( -16 -16 224 ) ( -16 -48 224 ) ( -16 -48 192 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+}
+// brush 5
+{
+ ( 16 48 192 ) ( -16 48 192 ) ( -16 16 192 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -16 16 224 ) ( -16 48 224 ) ( 16 48 224 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -16 16 224 ) ( 16 16 224 ) ( 16 16 192 ) caulk 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( 16 16 224 ) ( 16 48 224 ) ( 16 48 192 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( 16 48 224 ) ( -16 48 224 ) ( -16 48 192 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( -16 48 224 ) ( -16 16 224 ) ( -16 16 192 ) rndl_leaves_spruce 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+}
+// brush 6
+{
+ ( 16 -16 128 ) ( -16 -16 128 ) ( -16 -48 128 ) caulk 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -16 -48 160 ) ( -16 -16 160 ) ( 16 -16 160 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -16 -48 160 ) ( 16 -48 160 ) ( 16 -48 128 ) rndl_leaves_spruce 32 32 16 64 0 0 lightmap_gray 16384 16384 16 64 0 0
+ ( 16 -48 160 ) ( 16 -16 160 ) ( 16 -16 128 ) rndl_leaves_spruce 32 32 16 64 0 0 lightmap_gray 16384 16384 16 64 0 0
+ ( 16 -16 160 ) ( -16 -16 160 ) ( -16 -16 128 ) caulk 32 32 16 64 0 0 lightmap_gray 16384 16384 16 64 0 0
+ ( -16 -16 160 ) ( -16 -48 160 ) ( -16 -48 128 ) rndl_leaves_spruce 32 32 16 64 0 0 lightmap_gray 16384 16384 16 64 0 0
+}
+// brush 7
+{
+ ( 16 48 128 ) ( -16 48 128 ) ( -16 16 128 ) caulk 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -16 16 160 ) ( -16 48 160 ) ( 16 48 160 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -16 16 160 ) ( 16 16 160 ) ( 16 16 128 ) caulk 32 32 16 64 0 0 lightmap_gray 16384 16384 16 64 0 0
+ ( 16 16 160 ) ( 16 48 160 ) ( 16 48 128 ) rndl_leaves_spruce 32 32 16 64 0 0 lightmap_gray 16384 16384 16 64 0 0
+ ( 16 48 160 ) ( -16 48 160 ) ( -16 48 128 ) rndl_leaves_spruce 32 32 16 64 0 0 lightmap_gray 16384 16384 16 64 0 0
+ ( -16 48 160 ) ( -16 16 160 ) ( -16 16 128 ) rndl_leaves_spruce 32 32 16 64 0 0 lightmap_gray 16384 16384 16 64 0 0
+}
+// brush 8
+{
+ ( 48 16 128 ) ( 16 16 128 ) ( 16 -16 128 ) caulk 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( 16 -16 160 ) ( 16 16 160 ) ( 48 16 160 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( 16 -16 160 ) ( 48 -16 160 ) ( 48 -16 128 ) rndl_leaves_spruce 32 32 16 64 0 0 lightmap_gray 16384 16384 16 64 0 0
+ ( 48 -16 160 ) ( 48 16 160 ) ( 48 16 128 ) rndl_leaves_spruce 32 32 16 64 0 0 lightmap_gray 16384 16384 16 64 0 0
+ ( 48 16 160 ) ( 16 16 160 ) ( 16 16 128 ) rndl_leaves_spruce 32 32 16 64 0 0 lightmap_gray 16384 16384 16 64 0 0
+ ( -48 16 160 ) ( -48 -16 160 ) ( -48 -16 128 ) rndl_leaves_spruce 32 32 16 64 0 0 lightmap_gray 16384 16384 16 64 0 0
+}
+// brush 9
+{
+ ( 16 -48 96 ) ( -16 -48 96 ) ( -16 -80 96 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -16 -80 128 ) ( -16 -48 128 ) ( 16 -48 128 ) rndl_leaves_spruce 32 32 16 -16 0 0 lightmap_gray 16384 16384 16 -16 0 0
+ ( -16 -80 128 ) ( 16 -80 128 ) ( 16 -80 96 ) rndl_leaves_spruce 32 32 16 -32 0 0 lightmap_gray 16384 16384 16 -32 0 0
+ ( 16 -80 128 ) ( 16 -48 128 ) ( 16 -48 96 ) rndl_leaves_spruce 32 32 16 -32 0 0 lightmap_gray 16384 16384 16 -32 0 0
+ ( 16 -48 128 ) ( -16 -48 128 ) ( -16 -48 96 ) caulk 32 32 16 -32 0 0 lightmap_gray 16384 16384 16 -32 0 0
+ ( -16 -48 128 ) ( -16 -80 128 ) ( -16 -80 96 ) rndl_leaves_spruce 32 32 16 -32 0 0 lightmap_gray 16384 16384 16 -32 0 0
+}
+// brush 10
+{
+ ( 80 16 96 ) ( 48 16 96 ) ( 48 -16 96 ) rndl_leaves_spruce 32 32 80 -80 0 0 lightmap_gray 16384 16384 80 -80 0 0
+ ( 48 -16 128 ) ( 48 16 128 ) ( 80 16 128 ) rndl_leaves_spruce 32 32 80 -80 0 0 lightmap_gray 16384 16384 80 -80 0 0
+ ( 48 -16 128 ) ( 80 -16 128 ) ( 80 -16 96 ) rndl_leaves_spruce 32 32 80 -32 0 0 lightmap_gray 16384 16384 80 -32 0 0
+ ( 80 -16 128 ) ( 80 16 128 ) ( 80 16 96 ) rndl_leaves_spruce 32 32 80 -32 0 0 lightmap_gray 16384 16384 80 -32 0 0
+ ( 80 16 128 ) ( 48 16 128 ) ( 48 16 96 ) rndl_leaves_spruce 32 32 80 -32 0 0 lightmap_gray 16384 16384 80 -32 0 0
+ ( 48 16 128 ) ( 48 -16 128 ) ( 48 -16 96 ) caulk 32 32 80 -32 0 0 lightmap_gray 16384 16384 80 -32 0 0
+}
+// brush 11
+{
+ ( 16 80 96 ) ( -16 80 96 ) ( -16 48 96 ) rndl_leaves_spruce 32 32 16 -144 0 0 lightmap_gray 16384 16384 16 -144 0 0
+ ( -16 48 128 ) ( -16 80 128 ) ( 16 80 128 ) rndl_leaves_spruce 32 32 16 -144 0 0 lightmap_gray 16384 16384 16 -144 0 0
+ ( -16 48 128 ) ( 16 48 128 ) ( 16 48 96 ) caulk 32 32 16 -32 0 0 lightmap_gray 16384 16384 16 -32 0 0
+ ( 16 48 128 ) ( 16 80 128 ) ( 16 80 96 ) rndl_leaves_spruce 32 32 144 -32 0 0 lightmap_gray 16384 16384 144 -32 0 0
+ ( 16 80 128 ) ( -16 80 128 ) ( -16 80 96 ) rndl_leaves_spruce 32 32 16 -32 0 0 lightmap_gray 16384 16384 16 -32 0 0
+ ( -16 80 128 ) ( -16 48 128 ) ( -16 48 96 ) rndl_leaves_spruce 32 32 144 -32 0 0 lightmap_gray 16384 16384 144 -32 0 0
+}
+// brush 12
+{
+ ( -48 16 96 ) ( -80 16 96 ) ( -80 -16 96 ) rndl_leaves_spruce 32 32 -48 -80 0 0 lightmap_gray 16384 16384 -48 -80 0 0
+ ( -80 -16 128 ) ( -80 16 128 ) ( -48 16 128 ) rndl_leaves_spruce 32 32 -48 -80 0 0 lightmap_gray 16384 16384 -48 -80 0 0
+ ( -80 -16 128 ) ( -48 -16 128 ) ( -48 -16 96 ) rndl_leaves_spruce 32 32 -48 -32 0 0 lightmap_gray 16384 16384 -48 -32 0 0
+ ( -48 -16 128 ) ( -48 16 128 ) ( -48 16 96 ) caulk 32 32 80 -32 0 0 lightmap_gray 16384 16384 80 -32 0 0
+ ( -48 16 128 ) ( -80 16 128 ) ( -80 16 96 ) rndl_leaves_spruce 32 32 -48 -32 0 0 lightmap_gray 16384 16384 -48 -32 0 0
+ ( -80 16 128 ) ( -80 -16 128 ) ( -80 -16 96 ) rndl_leaves_spruce 32 32 80 -32 0 0 lightmap_gray 16384 16384 80 -32 0 0
+}
+}

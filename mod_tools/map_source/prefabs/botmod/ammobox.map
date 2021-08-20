@@ -1,0 +1,43 @@
+iwmap 4
+// entity 0
+{
+"_color" "0.5 0.5 .62 1"
+"ambient" ".1"
+"sundiffusecolor" ".55 .75 .8"
+"diffusefraction" ".15"
+"classname" "worldspawn"
+"sundirection" "-145 205 0"
+"suncolor" ".55 .75 .8"
+"sunlight" ".4"
+"bouncefraction" ".1"
+// brush 0
+{
+ ( 16 32 0 ) ( -16 32 0 ) ( -16 -32 0 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -32 96 ) ( -16 32 96 ) ( 16 32 96 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -20 40 ) ( 16 -20 40 ) ( 16 -20 0 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 20 -32 40 ) ( 20 32 40 ) ( 20 32 0 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 16 20 40 ) ( -16 20 40 ) ( -16 20 0 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -20 32 40 ) ( -20 -32 40 ) ( -20 -32 0 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "0 0 0"
+"model" "xmodel/prop_crate_wehrmacht3"
+"classname" "misc_model"
+}
+// entity 2
+{
+"hintstring" "Press [Use] to open the shop"
+"targetname" "ammobox"
+"classname" "trigger_use_touch"
+// brush 0
+{
+ ( 24 16 0 ) ( -16 16 0 ) ( -16 -24 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -24 64 ) ( -16 16 64 ) ( 24 16 64 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -32 32 ) ( 24 -32 32 ) ( 24 -32 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -24 32 ) ( 32 16 32 ) ( 32 16 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 32 32 ) ( -16 32 32 ) ( -16 32 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -32 16 32 ) ( -32 -24 32 ) ( -32 -24 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}

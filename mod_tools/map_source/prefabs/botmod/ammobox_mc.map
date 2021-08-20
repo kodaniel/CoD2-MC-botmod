@@ -1,0 +1,38 @@
+iwmap 4
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 16 32 0 ) ( -16 32 0 ) ( -16 -32 0 ) clip_nosight 64 64 1232 -48 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -32 96 ) ( -16 32 96 ) ( 16 32 96 ) clip_nosight 64 64 1232 -48 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -16 64 ) ( 16 -16 64 ) ( 16 -16 0 ) clip_nosight 64 64 1231.9966 -960 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 16 -32 64 ) ( 16 32 64 ) ( 16 32 0 ) clip_nosight 64 64 48 -960 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 16 16 64 ) ( -16 16 64 ) ( -16 16 0 ) clip_nosight 64 64 1232 -960 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 32 64 ) ( -16 -32 64 ) ( -16 -32 0 ) clip_nosight 64 64 48 -960 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 16 48 0 ) ( -48 48 0 ) ( -48 -16 0 ) rndl_workbench_top 32 32 1232 -48 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -48 -16 32 ) ( -48 48 32 ) ( 16 48 32 ) rndl_workbench_top 32 32 1232 -48 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -48 -16 32 ) ( 16 -16 32 ) ( 16 -16 0 ) rndl_workbench_side_b 32 32 1231.9976 -960.00287 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 16 -16 32 ) ( 16 48 32 ) ( 16 48 0 ) rndl_workbench_side_a 32 32 48 -960 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 16 16 32 ) ( -48 16 32 ) ( -48 16 0 ) rndl_workbench_side_b 32 32 1232 -960 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 48 32 ) ( -16 -16 32 ) ( -16 -16 0 ) rndl_workbench_side_a 32 32 48 -960 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"targetname" "ammobox"
+"hintstring" "Press [Use] to open the shop"
+"classname" "trigger_use_touch"
+// brush 0
+{
+ ( 24 24 0 ) ( -24 24 0 ) ( -24 -24 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -24 64 ) ( -24 24 64 ) ( 24 24 64 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -32 64 ) ( 32 -32 64 ) ( 32 -32 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -32 64 ) ( 32 16 64 ) ( 32 16 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 16 32 64 ) ( -32 32 64 ) ( -32 32 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -32 32 64 ) ( -32 -16 64 ) ( -32 -16 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}

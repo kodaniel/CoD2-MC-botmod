@@ -1,0 +1,15 @@
+iwmap 4
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+  contents detail;
+ ( 16 16 0 ) ( -16 16 0 ) ( -16 -16 0 ) rndl_chest_top 32 32 -16 -16 0 0 lightmap_gray 16384 16384 -16 -16 0 0
+ ( -16 -16 32 ) ( -16 16 32 ) ( 16 16 32 ) rndl_chest_top 32 32 -16 -16 0 0 lightmap_gray 16384 16384 -16 -16 0 0
+ ( -16 -16 32 ) ( 16 -16 32 ) ( 16 -16 0 ) rndl_chest_front_a 32 32 -16 0 0 0 lightmap_gray 16384 16384 -16 0 0 0
+ ( 16 -16 32 ) ( 16 16 32 ) ( 16 16 0 ) rndl_chest_back_a 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+ ( 16 16 32 ) ( -16 16 32 ) ( -16 16 0 ) rndl_chest_back_a 32 32 -16 0 0 0 lightmap_gray 16384 16384 -16 0 0 0
+ ( -16 16 32 ) ( -16 -16 32 ) ( -16 -16 0 ) rndl_chest_back_a 32 32 16 0 0 0 lightmap_gray 16384 16384 16 0 0 0
+}
+}

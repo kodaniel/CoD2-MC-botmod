@@ -1,0 +1,459 @@
+iwmap 4
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v -16 14 128 t 0 0 0 -4.5
+	v -16 14 0 t 0 4096 0 3.5
+   )
+   (
+	v 16 14 128 t 1024 0 2 -4.5
+	v 16 14 0 t 1024 4096 2 3.5
+   )
+  }
+ }
+// brush 1
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v 14 16 128 t 0 0 1.875 -8
+	v 14 16 0 t 0 4096 1.875 0
+   )
+   (
+	v 14 -16 128 t 1024 0 -0.125 -8
+	v 14 -16 0 t 1024 4096 -0.125 0
+   )
+  }
+ }
+// brush 2
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v -14 -16 128 t 0 0 -1.125 -8
+	v -14 -16 0 t 0 4096 -1.125 0
+   )
+   (
+	v -14 16 128 t 1024 0 0.875 -8
+	v -14 16 0 t 1024 4096 0.875 0
+   )
+  }
+ }
+// brush 3
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v 16 -14 128 t 0 0 1.125 -8
+	v 16 -14 0 t 0 4096 1.125 0
+   )
+   (
+	v -16 -14 128 t 1024 0 -0.875 -8
+	v -16 -14 0 t 1024 4096 -0.875 0
+   )
+  }
+ }
+// brush 4
+ {
+  mesh
+  {
+   rndl_cactus_top
+   lightmap_gray
+   2 2 16 8
+   (
+	v -16 -16 128 t 0 0 -1 1
+	v -16 16 128 t 0 1024 -1 -1
+   )
+   (
+	v 16 -16 128 t 1024 0 1 1
+	v 16 16 128 t 1024 1024 1 -1
+   )
+  }
+ }
+// brush 5
+{
+ ( 10 16 0 ) ( -22 16 0 ) ( -22 -16 0 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -16 144 ) ( -16 16 144 ) ( 16 16 144 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -16 128 ) ( 16 -16 128 ) ( 16 -16 120 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16383.984 0 4 0 0
+ ( 48 -16 128 ) ( 48 16 128 ) ( 48 16 120 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16383.984 0 4 0 0
+ ( 16 16 128 ) ( -16 16 128 ) ( -16 16 120 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16383.984 0 4 0 0
+ ( -56 16 128 ) ( -56 -16 128 ) ( -56 -16 120 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16383.984 0 4 0 0
+}
+// brush 6
+ {
+  mesh
+  {
+   rndl_cactus_top
+   lightmap_gray
+   2 2 16 8
+   (
+	v -56 -7.9999995 144 t 0 0 -1 1
+	v -56 8 144 t 0 1024 -1 -1
+   )
+   (
+	v -40 -7.9999995 144 t 1024 0 1 1
+	v -40 8 144 t 1024 1024 1 -1
+   )
+  }
+ }
+// brush 7
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v -54 -8 144 t 0 0 -1.125 -8
+	v -54 -8 80 t 0 4096 -1.125 0
+   )
+   (
+	v -54 7.9999995 144 t 1024 0 0.875 -8
+	v -54 7.9999995 80 t 1024 4096 0.875 0
+   )
+  }
+ }
+// brush 8
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v -56 6 144 t 0 0 -3.5 -9
+	v -56 6 80 t 0 4096 -3.5 -5
+   )
+   (
+	v -40 6 144 t 1024 0 -2.5 -9
+	v -40 6 80 t 1024 4096 -2.5 -5
+   )
+  }
+ }
+// brush 9
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v -40 -6 144 t 0 0 -2.5 -9
+	v -40 -6 80 t 0 4096 -2.5 -5
+   )
+   (
+	v -56 -6 144 t 1024 0 -3.5 -9
+	v -56 -6 80 t 1024 4096 -3.5 -5
+   )
+  }
+ }
+// brush 10
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v -42 8 144 t 0 0 -0.5 -9
+	v -42 8 80 t 0 4096 -0.5 -5
+   )
+   (
+	v -42 -8 144 t 1024 0 -1.5 -9
+	v -42 -8 80 t 1024 4096 -1.5 -5
+   )
+  }
+ }
+// brush 11
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v 0 -8 94 t 0 0 -1 1
+	v -42 -8 94 t 0 2427.9934 -5 1
+   )
+   (
+	v 0 8 94 t 1018.8863 0 -1 0
+	v -42 8 94 t 1018.8863 2427.9934 -5 0
+   )
+  }
+ }
+// brush 12
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v 0 8 82 t 0 0 -1 0
+	v -42 8 82 t 0 2427.9934 -5 0
+   )
+   (
+	v 0 -8 82 t 1018.8863 0 -1 1
+	v -42 -8 82 t 1018.8863 2427.9934 -5 1
+   )
+  }
+ }
+// brush 13
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v 0 -6 80 t 0 0 -1 -6.5
+	v -41 -6 80 t 0 2427.9934 -5 -6.5
+   )
+   (
+	v 0 -6 96 t 1018.8863 0 -1 -7.5
+	v -41 -6 96 t 1018.8863 2427.9934 -5 -7.5
+   )
+  }
+ }
+// brush 14
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v 0 6 96 t 0 0 -1 -7.5
+	v -41 6 96 t 0 2427.9934 -5 -7.5
+   )
+   (
+	v 0 6 80 t 1018.8863 0 -1 -6.5
+	v -41 6 80 t 1018.8863 2427.9934 -5 -6.5
+   )
+  }
+ }
+// brush 15
+ {
+  mesh
+  {
+   rndl_cactus_top
+   lightmap_gray
+   2 2 16 8
+   (
+	v -56 8 80 t 0 0 -3.5 -0.5
+	v -56 -8 80 t 0 1024 -3.5 0.5
+   )
+   (
+	v -40 8 80 t 1024 0 -2.5 -0.5
+	v -40 -8 80 t 1024 1024 -2.5 0.5
+   )
+  }
+ }
+// brush 16
+ {
+  mesh
+  {
+   rndl_cactus_top
+   lightmap_gray
+   2 2 16 8
+   (
+	v 48 -8 48 t 0 0 3.5 2.5
+	v 48 8 48 t 0 1024 3.5 1.5
+   )
+   (
+	v 32 -8 48 t 1024 0 2.5 2.5
+	v 32 8 48 t 1024 1024 2.5 1.5
+   )
+  }
+ }
+// brush 17
+ {
+  mesh
+  {
+   rndl_cactus_top
+   lightmap_gray
+   2 2 16 8
+   (
+	v 48 8 112 t 0 0 3.5 1.5
+	v 48 -8 112 t 0 1024 3.5 2.5
+   )
+   (
+	v 32 8 112 t 1024 0 2.5 1.5
+	v 32 -8 112 t 1024 1024 2.5 2.5
+   )
+  }
+ }
+// brush 18
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v 48 -6 112 t 0 0 3.5 -9
+	v 48 -6 48 t 0 4096 3.5 -5
+   )
+   (
+	v 32 -6 112 t 1024 0 2.5 -9
+	v 32 -6 48 t 1024 4096 2.5 -5
+   )
+  }
+ }
+// brush 19
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v -8 6 48 t 0 0 0 -5
+	v 33 6 48 t 0 2427.9934 2.5625 -5
+   )
+   (
+	v -8 6 64 t 1018.8863 0 0 -6
+	v 33 6 64 t 1018.8863 2427.9934 2.5625 -6
+   )
+  }
+ }
+// brush 20
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v -8 -6 64 t 0 0 0 -6
+	v 33 -6 64 t 0 2427.9934 2.5625 -6
+   )
+   (
+	v -8 -6 48 t 1018.8863 0 0 -5
+	v 33 -6 48 t 1018.8863 2427.9934 2.5625 -5
+   )
+  }
+ }
+// brush 21
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v -8 8 62 t 0 0 0 1.5
+	v 34 8 62 t 0 2427.9934 2.625 1.5
+   )
+   (
+	v -8 -8 62 t 1018.8863 0 0 2.5
+	v 34 -8 62 t 1018.8863 2427.9934 2.625 2.5
+   )
+  }
+ }
+// brush 22
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v -8 -8 50 t 0 0 0 2.5
+	v 34 -8 50 t 0 2427.9934 2.625 2.5
+   )
+   (
+	v -8 8 50 t 1018.8863 0 0 1.5
+	v 34 8 50 t 1018.8863 2427.9934 2.625 1.5
+   )
+  }
+ }
+// brush 23
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v 46 8 112 t 0 0 -1.5 -9
+	v 46 8 48 t 0 4096 -1.5 -5
+   )
+   (
+	v 46 -8 112 t 1024 0 -2.5 -9
+	v 46 -8 48 t 1024 4096 -2.5 -5
+   )
+  }
+ }
+// brush 24
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v 32 6 112 t 0 0 2.5 -9
+	v 32 6 48 t 0 4096 2.5 -5
+   )
+   (
+	v 48 6 112 t 1024 0 3.5 -9
+	v 48 6 48 t 1024 4096 3.5 -5
+   )
+  }
+ }
+// brush 25
+ {
+  mesh
+  {
+  toolFlags splitGeo;
+   rndl_cactus_side
+   lightmap_gray
+   2 2 16 8
+   (
+	v 34 -8 112 t 0 0 -2.5 -9
+	v 34 -8 48 t 0 4096 -2.5 -5
+   )
+   (
+	v 34 8 112 t 1024 0 -1.5 -9
+	v 34 8 48 t 1024 4096 -1.5 -5
+   )
+  }
+ }
+}

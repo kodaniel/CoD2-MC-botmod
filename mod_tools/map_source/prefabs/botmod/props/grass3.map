@@ -1,0 +1,41 @@
+iwmap 4
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+ {
+  mesh
+  {
+  contents nonColliding;
+   rndl_wheat_2
+   lightmap_gray
+   2 2 16 8
+   (
+	v -16 0 32 t 0 0 0 -3
+	v -16 0 0 t 0 1024 0 -1
+   )
+   (
+	v 16 0 32 t 1024 0 2 -3
+	v 16 0 0 t 1024 1024 2 -1
+   )
+  }
+ }
+// brush 1
+ {
+  mesh
+  {
+  contents nonColliding;
+   rndl_wheat_2
+   lightmap_gray
+   2 2 16 8
+   (
+	v 0 16 32 t 0 0 1 -2
+	v 0 16 0 t 0 1024 1 0
+   )
+   (
+	v 0 -16 32 t 1024 0 -1 -2
+	v 0 -16 0 t 1024 1024 -1 0
+   )
+  }
+ }
+}
